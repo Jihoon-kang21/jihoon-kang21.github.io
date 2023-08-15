@@ -148,7 +148,7 @@ lang: "ko"
 header_pages:
   - index.html
   #  - archives.html
-  #  - categories.html
+  - categories.html
   - tags.html
     #  - about.md
 
