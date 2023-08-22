@@ -17,7 +17,7 @@ tags: [python]
 #!/usr/bin/env python3
 
 # https://api.slack.com/apps 에서 app 생성후 token 생성가능
-# SLACK_BOT_TOKEN=xoxb-3367050835-1860497189600-TrTejQF2ylnk20u3sKdYRBmp
+# SLACK_BOT_TOKEN=xoxb-xxxxxxx
 
 # 크론탭으로 스크립트 실행
 
