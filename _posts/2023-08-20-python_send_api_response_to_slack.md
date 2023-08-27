@@ -6,13 +6,13 @@ categories: tech
 tags: [python]
 ---
 
-# 상황
+## 상황
 어떠한 application을 실행하는 서버 6대가 있다.
 이 application을 실행할 수 있는 횟수는 라이선스로 제한되어있다.
 라이선스를 계속 체크해서 주어진 횟수의 80%를 소진하면 slack으로 알림을 받고 싶다.
 라이선스를 확인할 수 있는 api가 서버로부터 제공되고 ip주소를 통해 접속할수 있다.
 
-# script
+## script
 ```python
 #!/usr/bin/env python3
 

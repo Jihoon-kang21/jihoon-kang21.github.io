@@ -6,7 +6,7 @@ categories: tech
 tags: [kafka]
 ---
 
-# intro
+## intro
 
 - kafka를 설치하고 간단히 테스트하기
 - conduktor에서 제공하는 docker compose 파일을 이용하면 간단히 설치하고 실행 가능
@@ -14,7 +14,7 @@ tags: [kafka]
 - 초보 사용자들을 위해 kafka 설치 연습해볼수 있는 repo가 있음 : https://github.com/conduktor/kafka-stack-docker-compose
 	- 사용 방법도 repo에 나와있다.
 
-# 설치하기
+## 설치하기
 
 - git clone 후에 zk-single-kafka-single.yml 파일을 실행하면 Single Zookeeper / Single Kafka 옵션으로 테스트 해볼 수 있다.
 	- repo에 가면 Zookeeper 또는 Kafka를 multi로 실행할 수 있는 옵션도 있다.
@@ -31,7 +31,7 @@ docker compose -f zk-single-kafka-single.yml down
 
 * multipass 로 Ubuntu 18.04에서 실행했을때 : 메모리 335메가, consumer 실행하면 460메가까지 사용량이 상승했다
 
-# topic을 생성하고 메시지 전송해보기
+##topic을 생성하고 메시지 전송해보기
 
 - topic을 생성하고 consumer 및 producer 실행할 수 있는 명령어가 kafka container에 있다.
 - 해서, 컨테이너에 진입한다.
