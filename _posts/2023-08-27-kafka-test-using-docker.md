@@ -31,7 +31,7 @@ docker compose -f zk-single-kafka-single.yml down
 
 * multipass 로 Ubuntu 18.04에서 실행했을때 : 메모리 335메가, consumer 실행하면 460메가까지 사용량이 상승했다
 
-##topic을 생성하고 메시지 전송해보기
+## topic을 생성하고 메시지 전송해보기
 
 - topic을 생성하고 consumer 및 producer 실행할 수 있는 명령어가 kafka container에 있다.
 - 해서, 컨테이너에 진입한다.
