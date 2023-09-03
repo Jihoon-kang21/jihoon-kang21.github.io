@@ -1,8 +1,8 @@
 ---
 layout: post
-title: kafka docker로 설치하고 data 전송해보기
-subtitle: docker-compose를 이용해 zookeeper, kafka를 설치하고, consumer와 producer를 실행해본다.
-categories: tech
+title: npm install - 403 Forbidden error
+subtitle: 403 error를 해결하고 private registry를 이용하는 방법
+categories: troubleshooting
 tags: [nodejs]
 ---
 
