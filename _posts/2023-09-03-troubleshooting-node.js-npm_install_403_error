@@ -6,8 +6,7 @@ categories: troubleshooting
 tags: [nodejs]
 ---
 
-
-### 이슈
+## 이슈
 
 node.js 설치후 필요한 모듈을 설치하려고 하는데 403 에러가 발생
 ```bash
@@ -21,7 +20,7 @@ npm ERR! A complete log of this run can be found in:
 npm ERR!     /home/****/.npm/_logs/2023-08-30T02-14_00_787Z-debug.log
 ```
 
-### 해결
+## 해결
 
 config에 설정된 repo에 접급권한이 없어서 실패했다.
 기본 repository는 `https://registry.npmjs.org` 이곳이다.
