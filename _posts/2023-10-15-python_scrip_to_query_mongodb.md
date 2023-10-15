@@ -14,7 +14,6 @@ from datetime import datetime, timedelta, date, time as dt_time
 from mongoengine import connect, disconnect, get_db
 import json
 from pprint import pprint
-import re  # 추가: 정규 표현식을 사용하기 위한 모듈 임포트
 ```
 
 ### 2: 현재 연결된 MongoDB가 있다면 연결 해제
@@ -62,7 +61,6 @@ for document in cursor:
 - 실제 collection 이름으로 <collection_name> 대체한다.
 - 출력할 필드 이름으로 <field_name> 대체한다.
 - sort("날짜필드", -1) 로 최신 데이터를 가장 상위에서 확인할 수 있다. -1 대신 1을 쓰면 반대로 정렬한다.
-- 
 ```python
 cursor = get_db().<collection_name>.find({"<field_name>": ObjectId('6515c6c1fb')}).sort("created_at", -1).limit(2)
 for document in cursor:
