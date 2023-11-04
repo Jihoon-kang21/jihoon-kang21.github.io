@@ -167,4 +167,4 @@ docker-compose up -d
 이제 Metric을 시각화하기 위해 Grafana에서 대시보드를 만들 수 있다. 
 Python 애플리케이션에서 `cpu_usage` 메트릭을 표시하려면 새 대시보드를 만들고 Prometheus 쿼리를 사용하여 `cpu_usage`를 표시하는 패널을 추가한다.
 
-![webhooksite-result](/assets/images/posts/231104/231104-grafana_prometheus_datshboard.png)
+![grafana_prometheus_datshboard](/assets/images/posts/20231104/231104-grafana_prometheus_datshboard.png)
