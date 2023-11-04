@@ -22,6 +22,7 @@ tags: [prometheus,grafana,python,script]
 - host의 cpu 사용량과 memory 사용량을 확인하기도 하고, 10000 이라는 investment 숫자에서 +,- 5% 변동을 5초간격으로 주고, 평균값과 현재값을 저장하는 스크립트다.
 - port 8000 을 open하여 prometheus가 metric을 scripe 할 수 있게 한다.
 - Gauge 는 매트릭 유형 중 하나다. 예를들어 'cpu_usage'가 metric이고 CPU Usage은 description이다.
+
 ```python
 import psutil
 from prometheus_client import start_http_server, Gauge
