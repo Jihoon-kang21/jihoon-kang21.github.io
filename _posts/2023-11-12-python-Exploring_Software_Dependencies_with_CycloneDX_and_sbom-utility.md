@@ -21,6 +21,7 @@ Note : python library 대상으로 실행했을 때는 정보가 없는 library�
 - [https://github.com/CycloneDX/sbom-utility/releases](https://github.com/CycloneDX/sbom-utility/releases)
 압축을 풀면 설치는 끝난다.
 설치하면 아래와 같은 파일들이 있다.
+
 ```
 LICENSE                       
 config.json                   
@@ -30,12 +31,13 @@ README.md
 custom.json                   
 sbom-utility
 ```
-그중 sbom-utility가 실행파일다.
+그중 sbom-utility가 실행파일이다.
 
 ### 2. python 환경 준비
 
 - 위 파일들을 sbom이라는 폴더를 만들어 이동해 놓는다.
 - sbom 폴더 상위에 docker-compose.yml 파일을 만들고 내용을 다음과 같이 쓴다.
+
 ```
 version: '3.9'
 
@@ -51,7 +53,9 @@ services:
       - |
           sleep 300000
 ```
+
 - 아래 명령으로 python image에 진입하면 image 내부에서 sbom-utility를 테스트할수 있다.
+
 ```bash
 docker exec -it python-3.8.9 bash
 cd /sbom
