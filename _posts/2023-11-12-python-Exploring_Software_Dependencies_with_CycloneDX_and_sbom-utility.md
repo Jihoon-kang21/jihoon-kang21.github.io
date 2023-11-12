@@ -36,7 +36,7 @@ sbom-utility
 
 - 위 파일들을 sbom이라는 폴더를 만들어 이동해 놓는다.
 - sbom 폴더 상위에 docker-compose.yml 파일을 만들고 내용을 다음과 같이 쓴다.
-```yaml
+```
 version: '3.9'
 
 services:
@@ -134,7 +134,7 @@ SBOM Output Configuration:
 - license list 명령어로 라이선스 정보를 포함한 목록을 만든다.
 - query 를 이용하며 필요한 author, version, license 정보를 가져온다.
 
-```
+```bash
 ./sbom-utility license list -i cyclonedx.json --summary --quiet --format csv > license_report.csv
 
 ./sbom-utility query -i ./cyclonedx.json --quiet --select "type,name,author,version,licenses" --from components --where "name=.*" > license_dependencies.json
@@ -147,7 +147,7 @@ SBOM Output Configuration:
 	    - **License expressions** (e.g., `(MIT or GPL-2.0)`) with one term resolving to `UNDEFINED` and the the other term having a concrete policy will resolve to the "optimistic" policy for `OR` expressions and the "pessimistic" policy for `AND` expressions. In addition, a warning of this resolution is emitted.
 
 - license 명령어로 만들어진 결과물 예시
-```
+```bash
 $ cat license_report.csv
 usage-policy,license-type,license,resource-name,bom-ref,bom-location
 allow,name,Apache 2.0,sortedcontainers,698a8e4d-bfe6-4c1d-942f-a89bbd5b8978,components
@@ -175,7 +175,7 @@ UNDEFINED,invalid,NOASSERTION,,,metadata.component
 ```
 
 - query 명령어 결과 예시 : "type,name,author,version,licenses" 를 select 했을때
-```
+```bash
 root@deb1249312d7:/app/sbom# ./sbom-utility query -i ./cyclonedx.json --quiet --select "type,name,author,version,licenses" --from components --where "name=cyclonedx-python-lib"
 [
   {
@@ -200,7 +200,7 @@ root@deb1249312d7:/app/sbom# ./sbom-utility query -i ./cyclonedx.json --quiet --
 ```
 
 - query 명령어 결과 예시 : 모든 정보를 select 했을때
-```
+```bash
 root@deb1249312d7:/app/sbom# ./sbom-utility query -i ./cyclonedx.json --quiet --select '*' --from components --where "name=cyclonedx-python-lib"
 [
   {
@@ -227,7 +227,7 @@ root@deb1249312d7:/app/sbom# ./sbom-utility query -i ./cyclonedx.json --quiet --
 ```
 
 아래는 전체 query 결과이다.
-```
+```bash
 $ cat license_dependencies.json
 [
   {
