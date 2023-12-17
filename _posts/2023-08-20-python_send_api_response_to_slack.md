@@ -2,8 +2,8 @@
 layout: post
 title: api 응답을 slack 메시지로 전달하기
 subtitle: 파일을 open, read 하여 requests.post로 특정 url에 파일을 업로드하는 예시 스크립트
-categories: tech
-tags: [pythoni,script]
+categories: Code Example
+tags: [pythoni]
 ---
 
 ## 상황

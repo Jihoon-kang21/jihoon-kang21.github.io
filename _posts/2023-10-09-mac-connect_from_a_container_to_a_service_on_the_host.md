@@ -2,7 +2,7 @@
 layout: post
 title: Mac-container에서 host로 접근
 subtitle: Mac에서 docker desktop을 설치해서 쓰는 경우 docker0 interface가 없다
-categories: tech
+categories: Tech
 tags: [mac,docker,network]
 ---
 

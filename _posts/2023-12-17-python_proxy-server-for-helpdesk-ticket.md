@@ -2,7 +2,7 @@
 layout: post
 title: webhook을 전달받아 포멧을 변경하여 API request 날리기
 subtitle: fastAPI와 httpx 활용하기
-categories: example
+categories: Code Example
 tags: [python,fastapi]
 ---
 

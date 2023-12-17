@@ -2,7 +2,7 @@
 layout: post
 title: kafka docker로 설치하고 data 전송해보기
 subtitle: docker-compose를 이용해 zookeeper, kafka를 설치하고, consumer와 producer를 실행해본다.
-categories: tech
+categories: Tech
 tags: [kafka]
 ---
 

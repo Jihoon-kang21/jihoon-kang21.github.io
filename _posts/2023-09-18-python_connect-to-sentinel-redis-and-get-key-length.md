@@ -2,8 +2,8 @@
 layout: post
 title: python - sentinel redis에 연결해서 key리스트와 각 key의 length 구하기
 subtitle: master를 찾아 key list를 구하고 타입별로 length 구하기
-categories: tech
-tags: [python,redis,script]
+categories: Code Example
+tags: [python,redis]
 ---
 
 ## Situation

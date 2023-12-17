@@ -2,8 +2,8 @@
 layout: post
 title: python-mongoengine 사용해서 MongoDB query하기
 subtitle: MongoDB에 접속해서 다양한 query 실행하는 방법
-categories: tech
-tags: [python,script,mongodb]
+categories: Code Example
+tags: [python,mongodb]
 ---
 
 ### 1: 필요한 라이브러리 가져오기

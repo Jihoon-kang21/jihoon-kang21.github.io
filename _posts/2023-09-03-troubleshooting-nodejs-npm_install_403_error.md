@@ -2,7 +2,7 @@
 layout: post
 title: npm install - 403 Forbidden error
 subtitle: 403 error를 해결하고 private registry를 이용하는 방법
-categories: troubleshooting
+categories: Troubleshooting
 tags: [nodejs]
 ---
 

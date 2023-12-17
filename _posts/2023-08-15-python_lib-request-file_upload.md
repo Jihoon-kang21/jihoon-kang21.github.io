@@ -2,8 +2,8 @@
 layout: post
 title: 파이썬 request 라이브러리를 이용해서 파일 업로드하기
 subtitle: 파일을 open, read 하여 requests.post로 특정 url에 파일을 업로드하는 예시
-categories: tech
-tags: [python,script]
+categories: Code Example
+tags: [python]
 ---
 
 아래는 조건

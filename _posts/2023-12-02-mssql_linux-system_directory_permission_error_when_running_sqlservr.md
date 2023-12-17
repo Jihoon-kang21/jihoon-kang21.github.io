@@ -2,8 +2,8 @@
 layout: post
 title: mssql with k8s 또는 docker - volume mount했을때 sqlservr실행시 system directory permission error 
 subtitle: mssql를 k8s 또는 docker로 실행하기
-categories: troubleshooting
-tags: [docker,k8s,mssql,troubleshooting]
+categories: Troubleshooting
+tags: [docker,k8s,mssql]
 ---
 
 ## Situation

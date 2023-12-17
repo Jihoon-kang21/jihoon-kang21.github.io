@@ -2,8 +2,8 @@
 layout: post
 title: 설치된 python library들의 license, version 정보를 포함한 SBOM 만들기 
 subtitle: sbom-utility를 이용하여 cycloneDX 표준을 바탕으로 SBOM을 만들어본다.
-categories: tech
-tags: [sbom,cyclonedx,python,script]
+categories: Code Example
+tags: [sbom,cyclonedx,python]
 ---
 
 sbom-utility 를 이용하면 설치된 라이브러리들의 버전과 라이선스를 확인할 수 있다. 솔루션을 제공할때 고객사 등에서 관련 자료를 요구할 때 용이하다.

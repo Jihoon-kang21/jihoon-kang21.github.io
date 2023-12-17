@@ -2,7 +2,7 @@
 layout: post
 title: Mac에서 multipass 이용해 간단한 Ubuntu VM 만들기
 subtitle: 간단한 multipass 명령어 리스트
-categories: tech
+categories: Tech
 tags: [mac,vm,ubuntu]
 ---
 

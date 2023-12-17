@@ -2,7 +2,7 @@
 layout: post
 title: Jitbit을 통한 On-premise 고객 지원
 subtitle: Jitbit을 설치하고 webhook을 테스트해본다
-categories: tech
+categories: Tech
 tags: [helpdesk,on-premise,webhook]
 ---
 
