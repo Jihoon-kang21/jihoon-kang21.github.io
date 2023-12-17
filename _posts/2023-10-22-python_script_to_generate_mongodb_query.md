@@ -2,7 +2,7 @@
 layout: post
 title: python-MongoDB query 문 대신 써주는 스크립트
 subtitle: 비슷한 query를 자주 써야하는 경우 검색할 key, value만 입력하면 query문을 완성해준다
-categories: Code Example
+categories: CodeExample
 tags: [python,mongodb]
 ---
 

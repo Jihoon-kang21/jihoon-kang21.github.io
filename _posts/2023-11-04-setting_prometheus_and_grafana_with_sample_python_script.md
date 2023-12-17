@@ -2,7 +2,7 @@
 layout: post
 title: Prometheus 및 Grafana를 설정하여 모니터링 및 시각화 구축하기
 subtitle: 간단한 python script로 metric을 만들어 본다
-categories: Code Example
+categories: CodeExample
 tags: [prometheus,grafana,python]
 ---
 

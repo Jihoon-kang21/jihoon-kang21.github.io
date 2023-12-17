@@ -2,7 +2,7 @@
 layout: post
 title: 설치된 python library들의 license, version 정보를 포함한 SBOM 만들기 
 subtitle: sbom-utility를 이용하여 cycloneDX 표준을 바탕으로 SBOM을 만들어본다.
-categories: Code Example
+categories: CodeExample
 tags: [sbom,cyclonedx,python]
 ---
 

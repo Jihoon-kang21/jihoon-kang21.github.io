@@ -2,7 +2,7 @@
 layout: post
 title: python script로 postgresql db에 query 날리기
 subtitle: psycopg2를 이용해 table을 만들고 insert 문을 실행해본다
-categories: Code Example
+categories: CodeExample
 tags: [python,postgresql]
 ---
 
