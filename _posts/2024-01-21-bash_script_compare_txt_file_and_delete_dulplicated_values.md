@@ -25,6 +25,13 @@ o
 p
 ```
 b.txt 내용 중에서 a.txt 에 없는 값만 남기고 싶다.
+result.txt
+```
+d
+q
+o
+p
+```
 
 ## 구글링 통해 작성한 Script
 
