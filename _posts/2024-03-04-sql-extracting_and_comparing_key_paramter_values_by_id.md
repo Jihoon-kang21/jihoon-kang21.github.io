@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SQL - ID별 주요 파라미터 값 추출 및 비교
+title: SQL - ID별 주요 파라미터 값 추출 및 비교 쿼리 예시
 subtitle: max, group by, having 활용
 categories: CodeExample
 tags: [sql]
