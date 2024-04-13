@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MongoDB - index 생성, 종료 및 관리 이해하기
+title: MongoDB - index 생성과 종료
 subtitle: Foreground, background build, Lock 등에 대해
 categories: Tech
 tags: [mongodb]
