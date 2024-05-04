@@ -44,13 +44,10 @@ status가 error 인 모델들을 나열하면서, 동시에 각 모델에 연결
 
 ## Expected result
 
-```python
-
-## Result
-
 아래와 같은 리스트를 만들고 싶다.
 _id는 model의 id이고, dataset의 이름을 같이 확인할 수 있게 된다.
 
+```python
 [
     {
         "_id": ObjectId("61398998ddhojkl1"),
