@@ -11,16 +11,16 @@ Log Rotation은 Log File이 특정 크기에 도달하면 새로운 Log File로 
 
 ## Log Rotation이 필요한 경우
 
-### 디스크 공간 관리:
+1. **디스크 공간 관리**:
 Log File이 너무 커지면 디스크 공간을 많이 차지하게 되어 시스템의 다른 작업에 영향을 줄 수 있다.
 
-### Log File 읽기 및 관리:
+2. **Log File 읽기 및 관리**:
 매우 큰 Log File은 읽고 분석하기 어렵다. 작은 크기의 여러 File로 나누면 관리가 더 쉬워진다.
 
-### 데이터 보존 및 보안:
+4. **데이터 보존 및 보안**:
 오래된 Log File을 자동으로 삭제하거나 백업하여 보존 정책을 관리할 수 있다.
 
-### RotatingFileHandler의 특징
+## RotatingFileHandler의 특징
 RotatingFileHandler는 Python의 logging 모듈에서 제공하는 Handler 중 하나로, Log File Rotation을 자동으로 관리한다. 주요 특징은 다음과 같다:
 
 1. **File 크기 제한**:
