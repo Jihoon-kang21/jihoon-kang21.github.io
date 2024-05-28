@@ -15,8 +15,8 @@ Poetry는 python 프로젝트의 dependency을 관리하고 패키징을 쉽게 
 2. [Poetry로 프로젝트 생성하기](#poetry로-프로젝트-생성하기)
 3. [Poetry 명령어로 dependency 파일 설정하기](#poetry-명령어로-dependency-파일-설정하기)
 4. [Pre-commit 설치 방법](#pre-commit-설치-방법)
-5. [유용한 Pre-commit Hook](#유용한-pre-commit-Hook)
-6. [각 Hook의 예시](#각-Hook의-예시)
+5. [유용한 Pre-commit Hook](#유용한-pre-commit-Hook)
+6. [각 Hook의 예시](#각-Hook의-예시)
 
 ---
 
@@ -84,7 +84,7 @@ Poetry는 프로젝트의 dependency을 관리하기 쉽게 만들어준다.
 
 ## Pre-commit 설치 방법
 
-Pre-commit은 다중 언어 pre-commit Hook를 관리하고 유지하는 프레임워크이다.
+Pre-commit은 다중 언어 pre-commit Hook를 관리하고 유지하는 프레임워크이다.
 
 1. **Pre-commit 설치**:
    먼저 pre-commit 패키지를 설치해야 한다. Poetry를 사용 중이라면 개발용 dependency으로 추가할 수 있다:
